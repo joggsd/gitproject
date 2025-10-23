@@ -30,7 +30,7 @@ class Ui_MainWindow(object):
         self.verticalLayout.addWidget(self.edit2)
 
         # 계산 버튼
-        self.addButton = QPushButton("add")
+        self.addButton = QPushButton("더하기")
         self.verticalLayout.addWidget(self.addButton)
 
         # 결과 표시 레이블
