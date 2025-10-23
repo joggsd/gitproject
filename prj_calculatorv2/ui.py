@@ -34,7 +34,7 @@ class Ui_MainWindow(object):
         self.verticalLayout.addWidget(self.addButton)
 
         # 결과 표시 레이블
-        self.resultLabel = QLabel("결과: ")
+        self.resultLabel = QLabel("result: ")
         self.verticalLayout.addWidget(self.resultLabel)
 
         QCoreApplication.translate
